@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashBoard.StuDash">
+   <children>
+      <Label layoutX="96.0" layoutY="39.0" text="WELCOME TO YOUR DASH BOARD" textFill="ORANGE">
+         <font>
+            <Font name="Times New Roman Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="85.0" text="NAME:" />
+      <Label layoutX="57.0" layoutY="131.0" text="STUDET ID:" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false">
+               <graphic>
+                  <MenuButton fx:id="back" mnemonicParsing="false" onMouseClicked="#Homepage" text="Registration" />
+               </graphic>
+          </Menu>
+          <Menu mnemonicParsing="false">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Pre-Advising" />
+                  <MenuItem mnemonicParsing="false" text="Final Registration" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="COURSE">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Taken" />
+                  <MenuItem mnemonicParsing="false" text="Completed" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="HELP">
+            <items>
+              <MenuItem mnemonicParsing="false" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="308.0" layoutY="85.0" prefHeight="17.0" prefWidth="50.0" text="CGPA:">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="131.0" text="COMPLETED CREDIT:" />
+      <TextField fx:id="Name" editable="false" layoutX="96.0" layoutY="82.0" />
+      <TextField fx:id="std_id" editable="false" layoutX="117.0" layoutY="127.0" />
+      <TextField fx:id="cgpa" editable="false" layoutX="358.0" layoutY="82.0" />
+      <TextField editable="false" layoutX="414.0" layoutY="127.0" />
+      <TextField layoutX="141.0" layoutY="188.0" prefHeight="25.0" prefWidth="273.0" />
+      <Label layoutX="233.0" layoutY="229.0" text="SEARCH ENGINE" />
+      <TextArea editable="false" layoutX="102.0" layoutY="256.0" prefHeight="109.0" prefWidth="367.0" />
+   </children>
+</AnchorPane>

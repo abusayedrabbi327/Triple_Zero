@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="408.0" prefWidth="383.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Faculty">
+   <children>
+      <Label layoutX="59.0" layoutY="136.0" text="USER-NAME:" />
+      <Label layoutX="59.0" layoutY="187.0" text="PASSWORD:" />
+      <TextField fx:id="IDName" layoutX="128.0" layoutY="132.0" />
+      <PasswordField fx:id="FacPW" layoutX="128.0" layoutY="183.0" />
+      <Button fx:id="Fac_In" layoutX="151.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#FacultyIn" text="LOGIN" />
+      <Label layoutX="34.0" layoutY="42.0" text="WELCOME FACULTY" textFill="ORANGE">
+         <font>
+            <Font name="Times New Roman Bold" size="30.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="back2" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#Back2" prefHeight="25.0" prefWidth="383.0" text="Back" />
+   </children>
+</AnchorPane>
