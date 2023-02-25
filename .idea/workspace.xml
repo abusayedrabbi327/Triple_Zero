@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c0fda8-8a1d-4882-ae78-c5f42f903a88" name="Changes" comment="new work">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashBoard/StuDash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashBoard/StuDash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/Registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/Registration.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DashBoard/StuDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DashBoard/StuDash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/Registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/Registration.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677307327249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new work">
+      <created>1677335376705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677335376705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

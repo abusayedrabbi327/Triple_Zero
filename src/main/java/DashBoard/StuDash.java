@@ -12,6 +12,8 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.InvocationTargetException;
 
 public class StuDash {
 
@@ -27,10 +29,11 @@ public class StuDash {
     private MenuButton back;
 
     @FXML
-    void Homepage(MouseEvent event) throws IOException {
-        FXMLLoader l11= new FXMLLoader(getClass().getResource("Registration.fxml"));
-        Parent call=l11.load();
-        Registration bc=l11.getController();
+    void Homepage(MouseEvent event) throws InvocationTargetException, IOException {
+        System.out.println("Inside of registration");
+        FXMLLoader hm= new FXMLLoader(getClass().getResource("Registration.fxml"));
+        Parent call=hm.load();
+        Registration bc=hm.getController();
         Scene sc1= new Scene(call);
         Stage sc2=(Stage) back.getScene().getWindow();
         sc2.setScene(sc1);
