@@ -5,13 +5,23 @@
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="408.0" prefWidth="383.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Faculty">
    <children>
-      <Label layoutX="59.0" layoutY="136.0" text="USER-NAME:" />
-      <Label layoutX="59.0" layoutY="187.0" text="PASSWORD:" />
+      <ImageView fitHeight="408.0" fitWidth="576.0" layoutX="-193.0" layoutY="26.0" opacity="0.48" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/faclogin.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="59.0" layoutY="136.0" text="USER-NAME:" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="59.0" layoutY="187.0" text="PASSWORD:" textFill="WHITE" />
       <TextField fx:id="IDName" layoutX="128.0" layoutY="132.0" />
       <PasswordField fx:id="FacPW" layoutX="128.0" layoutY="183.0" />
       <Button fx:id="Fac_In" layoutX="151.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#FacultyIn" text="LOGIN" />

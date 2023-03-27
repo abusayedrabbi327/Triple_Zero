@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="14c0fda8-8a1d-4882-ae78-c5f42f903a88" name="Changes" comment="new work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/AdminLog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/AdminLog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/Faculty.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/Faculty.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/FirstPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/FirstPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/StuDash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/StuDash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/Student.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/Student.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DashBoard/StuDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DashBoard/StuDash.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677341171332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new work">
+      <created>1679820219462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679820219462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
