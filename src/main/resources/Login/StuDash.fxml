@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
@@ -12,9 +13,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashBoard.StuDash">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.StuDash">
    <children>
-      <ImageView fitHeight="471.0" fitWidth="728.0" layoutX="-128.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="471.0" fitWidth="728.0" layoutX="-128.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../pic/3%20dashstu.jpg" />
          </image>
@@ -29,7 +30,7 @@
             <Font name="System Bold" size="12.0" />
          </font></Label>
       <Label layoutX="57.0" layoutY="131.0" text="STUDET ID:" textFill="WHITE" />
-      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+      <MenuBar prefHeight="25.0" prefWidth="600.0">
         <menus>
           <Menu mnemonicParsing="false">
                <graphic>
@@ -74,5 +75,6 @@
             <Font name="Times New Roman Bold" size="18.0" />
          </font></Label>
       <TextArea editable="false" layoutX="102.0" layoutY="256.0" prefHeight="109.0" prefWidth="367.0" />
+      <Button fx:id="getout" layoutX="252.0" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#getinngout" text="Sign out" textAlignment="CENTER" textFill="#fffefe" />
    </children>
 </AnchorPane>

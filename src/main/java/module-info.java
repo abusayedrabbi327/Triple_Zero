@@ -12,8 +12,8 @@ module com.example.ftz {
 //    opens Login to  javafx.fxml;
 //    exports Login;
 //
-    opens DashBoard to javafx.fxml;
-    exports DashBoard;
-    opens StudentAccess to  javafx.fxml;
-    exports StudentAccess;
+//    opens DashBoard to javafx.fxml;
+//    exports DashBoard;
+//    opens StudentAccess to  javafx.fxml;
+//    exports StudentAccess;
 }

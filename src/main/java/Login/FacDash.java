@@ -1,4 +1,4 @@
-package DashBoard;
+package Login;
 
 import Login.Faculty;
 import javafx.fxml.FXML;

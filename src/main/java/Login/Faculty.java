@@ -1,7 +1,5 @@
 package Login;
 
-import DashBoard.FacDash;
-import StudentAccess.Registration;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -28,7 +26,7 @@ public class    Faculty {
     void FacultyIn(MouseEvent event) throws IOException {
         String FacName= IDName.getText();
         String Facp= FacPW.getText();
-        if(FacName.equals("Fcaulty")&& Facp.equals("login")) {
+        if(FacName.equals("Faculty")&& Facp.equals("login")) {
             System.out.println("inside from faculty");
             FXMLLoader l11 = new FXMLLoader(getClass().getResource("FacDash.fxml"));
             Parent call = l11.load();

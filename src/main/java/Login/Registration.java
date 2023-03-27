@@ -1,7 +1,6 @@
-package StudentAccess;
+package Login;
 
-import DashBoard.StuDash;
-import Login.Firstpage;
+import Login.StuDash;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
