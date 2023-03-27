@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="14c0fda8-8a1d-4882-ae78-c5f42f903a88" name="Changes" comment="new work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/AdminLog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/AdminLog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/Faculty.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/Faculty.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/FirstPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/FirstPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/StuDash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/StuDash.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/Student.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Login/Student.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DashBoard/StuDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DashBoard/StuDash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Login/Registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DashBoard/Registration.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/AdminLog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/AdminLog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/Faculty.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/Faculty.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/FirstPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/FirstPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/Registration.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/StuDash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/StuDash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/Student.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/Student.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/4th Semester/AOOP/CLASS/Java-Collections/Java-Collections&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/4th Semester/AOOP/Triple Zero/FTZ/src/main/resources/DashBoard"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\4th Semester\AOOP\Triple Zero\FTZ\src\main\resources\DashBoard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\4th Semester\AOOP\Triple Zero\FTZ\src\main\resources" />
       <recent name="E:\4th Semester\AOOP\Triple Zero\FTZ\src\main\resources\Login" />
+      <recent name="E:\4th Semester\AOOP\Triple Zero\FTZ\src\main\resources\DashBoard" />
       <recent name="E:\4th Semester\AOOP\Triple Zero\FTZ\src\main\resources\StudentAccess" />
     </key>
   </component>
@@ -126,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679820219462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new work">
+      <created>1679887195254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679887195255</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

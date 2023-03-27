@@ -5,22 +5,29 @@
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="399.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Student">
    <children>
-      <Label layoutX="67.0" layoutY="59.0" prefHeight="75.0" prefWidth="226.0" text="WELCOME " textFill="#693ce4">
+      <ImageView fitHeight="411.0" fitWidth="675.0" focusTraversable="true" layoutX="-312.0" layoutY="27.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="67.0" layoutY="59.0" prefHeight="75.0" prefWidth="226.0" text="WELCOME " textFill="#f8a109">
          <font>
             <Font name="Times New Roman Bold" size="39.0" />
          </font>
       </Label>
-      <Label layoutX="37.0" layoutY="155.0" text="STUDENT-ID:" textFill="#148be1">
+      <Label layoutX="37.0" layoutY="155.0" text="STUDENT-ID:" textFill="#f9fdff">
          <font>
             <Font name="Times New Roman Bold Italic" size="17.0" />
          </font>
       </Label>
-      <Label layoutX="37.0" layoutY="200.0" text="PASSWORD:">
+      <Label layoutX="37.0" layoutY="200.0" text="PASSWORD:" textFill="#fcfafa">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>

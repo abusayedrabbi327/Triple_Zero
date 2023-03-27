@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Faculty {
+public class    Faculty {
     @FXML
     private PasswordField FacPW;
     @FXML
