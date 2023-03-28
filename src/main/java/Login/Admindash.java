@@ -14,8 +14,10 @@ import java.io.IOException;
 
 public class Admindash {
 
+    @FXML
+    private Menu tofirst;
       @FXML
-      private Button tofirst;
+      private Button tofirst000;
 
     //@FXML
 //    void getoutt(ActionEvent event) throws IOException {
@@ -27,7 +29,7 @@ public class Admindash {
         Parent admin=log.load();
         Firstpage b=log.getController();
         Scene sc11= new Scene(admin);
-        Stage sc22=(Stage) tofirst.getScene().getWindow();
+        Stage sc22=(Stage) tofirst000.getScene().getWindow();
         sc22.setScene(sc11);
         sc22.show();
 

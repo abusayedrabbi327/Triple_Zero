@@ -6,14 +6,13 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Admindash">
    <children>
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
         <menus>
           <Menu fx:id="tofirst" mnemonicParsing="false" onAction="#getoutt">
                <graphic>
-                  <Button fx:id="tofirst" mnemonicParsing="false" onMouseClicked="#getoutt" text="Back" />
+                  <Button fx:id="tofirst000" mnemonicParsing="false" onMouseClicked="#getoutt" text="Back" />
                </graphic>
           </Menu>
           <Menu mnemonicParsing="false" text="File">
